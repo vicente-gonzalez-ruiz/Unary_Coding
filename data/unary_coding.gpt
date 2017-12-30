@@ -1,0 +1,11 @@
+set terminal fig color textspecial
+#set noxtics
+#set noytics
+set xtics 1
+set xrange [0:10]
+set xlabel "Symbol"
+set ylabel "Probability"
+set output "unary_coding.fig"
+set samples 11
+plot 2**(-(x+1)) title "$2^{-(x+1)}$" with linespoints
+
