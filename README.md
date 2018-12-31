@@ -1,1 +1,1 @@
-[Click me](https://cdn.rawgit.com/vicente-gonzalez-ruiz/unary_coding/master/index.html).
+[Click me](https://vicente-gonzalez-ruiz.github.io/unary_coding/).
