@@ -1,0 +1,38 @@
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: "<none>"
+%%% End:
+
+\title{Unary coding}
+
+\author{Vicente González Ruiz}
+
+\maketitle
+
+\section{Ideas}
+\begin{itemize}
+\item
+  Used then the distribution of probability of the symbols follows a
+  \href{https://en.wikipedia.org/wiki/Geometric_distribution}{geometric
+  distribution}.
+\item
+  It is a particular case of the Huffman code where the number of bits
+  of each code-word (minus one) is equal to the index of the symbol in
+  the source alphabet. Example:
+\end{itemize}
+
+\img{150}{graphics/unary_coding_example.png}
+
+\begin{itemize}
+\item
+  The unary coding is only optimal when (see Equation
+  \(\text{Eq:symbol_information}\))
+
+  \begin{equation}
+    p(s) = 2^{-(s+1)} \tag{Eq:Unary}
+  \end{equation}
+
+  where \(s=0,1,\cdots\).
+\end{itemize}
+
+\img{800}{graphics/unary_coding.png}
